@@ -1,9 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Learn by doing</title>
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+
+  	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+  	<meta charset="utf-8">
+  	<style type="text/css">
+  		.speech-bubble {
+	position: relative;
+	background: #62b605;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 17px solid transparent;
+	border-top-color: #62b605;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -8.5px;
+	margin-bottom: -17px;
+}
+  		.alert{
+  			margin: 3%;
+  		}
+  	</style>
 </head>
 <body>
+	<div class="container">
+		<div class="row" style="border: 2px solid black ; margin-top:5em">
+			<div class="col-md-12" style="border: 25px solid rgb(112, 173, 214); background-color: white">
+				<p style="margin-top: -25px; color: white">Learning by Doing</p>
+	<p>Each computer has a built-in instruction set that it knows how to execute by design.</p>
+	<span class="speech-bubble">hint</span>
+	<div class="alert alert-warning alert-dismissible fade show">
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+		<p>Recall that we use the term computation to mean "the execution of a sequence of instructionas by a computer with the intention of solving a given problem"</p>
+	  </div>
+	
+	<input type="radio" name="b1">True</input>
+	<br>
+	<input type="radio" name="b1">False</input>
+	<div class="alert alert-danger alert-dismissible fade show">
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+	<p>
+		<strong> InCorrect </strong> Each computer has a set of primitive instructions that is 'weird' to execute. We call this instruction set of the computer.
+	</p> 
+</div>
+<hr>
+	<p>The computer uses its intelligence to execute instructions</p>
 
+	<span class="speech-bubble">hint</span>
+	<div class="alert alert-warning alert-dismissible fade show">
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+		<p>Recall that we said a computer executes the instructions given to it mechanically</p>
+	  </div>
+	
+	<input type="radio" name="b2">True</input>
+	<br>
+	<input type="radio" name="b2">False</input>
+	
+	<div class="alert alert-success alert-dismissible fade show">
+   		 <button type="button" class="close" data-dismiss="alert">&times;</button>
+		<p>
+			<strong> Correct </strong> A computer executes instructions automatically. Its main task is to simply execute the instructions
+			given to it(from its instruction set) and remember their results as the computation goes on. The part may 
+			require intelligence is expressing a computation in terms of those instructions.
+		</p>  
+	</div>			
+
+
+			</div>
+			<div></div>
+		</div>
+	</div>
+
+	
 </body>
 </html>
