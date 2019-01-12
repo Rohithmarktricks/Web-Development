@@ -1,0 +1,109 @@
+img.cspp_img{
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+img.cspp_img:hover {
+	opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+div.header{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div.cspp_info{
+	margin-bottom: 10px;
+  	/*margin-right: 10px;*/
+  	/*margin-left: 5px;*/
+  	height: 100px;
+  	min-width: 150px;
+  	overflow-x: hidden; /* Hide horizontal scrollbar */
+  	overflow-y: scroll;
+}
+div.image_row{
+	padding-left: 10px;
+}
+div.image_row{
+	width:220px;
+  	height:220px;
+  	border:1px solid black;
+  	border-radius:100%;
+}
+div.details_row{
+	padding-top: 25px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*height: 200px;*/
+}
+#student_image{
+	margin-bottom: 10px;
+  	margin-right: 5px;
+  	margin-left: 5px;
+  	margin-top: 5px;
+}
+#student-intro{
+	margin-bottom: 10px;
+  	margin-right: 5px;
+  	margin-left: 5px;
+  	margin-top: 10px;
+}
+#cspp{
+	margin-bottom: 5px;
+  	margin-right: 20px;
+  	margin-left: 60px;
+  	margin-top: 5px;
+  	border: 1px solid green;
+  	box-shadow: 10px 10px 5px grey;
+}
+#Ads{
+	margin-bottom: 5px;
+  	margin-right: 20px;
+  	margin-left: 20px;
+  	margin-top: 5px;
+  	border: 1px solid green;
+  	box-shadow: 10px 10px 5px grey;
+}
+#Dbms{
+	margin-bottom: 5px;
+  	margin-right: 20px;
+  	margin-left: 20px;
+  	margin-top: 5px;
+  	border: 1px solid green;
+  	box-shadow: 10px 10px 5px grey;
+}
+#ICS{
+	margin-bottom: 5px;
+  	margin-right: 20px;
+  	margin-left: 60px;
+  	margin-top: 5px;
+  	border: 1px solid green;
+  	box-shadow: 10px 10px 5px grey;
+}
+#Cnf{
+	margin-bottom: 5px;
+  	margin-right: 20px;
+  	margin-left: 20px;
+  	margin-top: 5px;
+  	border: 1px solid green;
+  	box-shadow: 10px 10px 5px grey;
+}
+#Cs{
+	margin-bottom: 5px;
+  	margin-right: 20px;
+  	margin-left: 20px;
+  	margin-top: 5px;
+  	border: 1px solid green;
+  	box-shadow: 10px 10px 5px grey;
+}
+.cspp_info{
+	border: 1px solid green;
+}
+#student{
+	border: 1px solid green;
+}
+#student_image{
+	border: 1px solid green;
+}
+#student_intro{
+	border: 1px solid green;
+}
