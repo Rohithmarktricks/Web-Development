@@ -1,9 +1,9 @@
 //To store the names and the corresponding comments.
-var val=""
-var comments=[];
 var key="12345";
+var comments=[];
 function validate(form){
-    var name_comments = {};
+    var val="";
+    // var name_comments = {};
     var c = document.getElementById("subject").value;
     var n = document.getElementById("nice_name").value;
     var pass = document.getElementById("secret").value;
@@ -14,19 +14,15 @@ function validate(form){
     } else if(pass != key){
         alert("Please provide corrent key. Try again!")
     } else{
-        name_comments[key] = n;
-        name_comments[val] = c;
-        comments.push(name_comments);
+        comments.push(n, c);
+		form.reset();
         var comm = "";
-        for(var i=comments.length-1; i>=0; i--){
-            // comm += comments[i][val]+ "\n";
-            // comm += comments[i][key]+"\n";
-            document.getElementById("this_comment").innerHTML = comments[i][val];
-            document.getElementById("this_username").innerHTML = comments[i][key];
+        for(var i = comments.length - 1; i > 0; i = i - 2)
+			 {
 
-        }
-        // document.getElementById("comments_existing").innerHTML = comm;
-        document.getElementById("comments_form").reset();
+				val = val   + "<h2>" +comments[i]+ "</h2>" + " " + comments[i - 1] +  "</br>"
+			}
+			document.getElementById("Top_comments").innerHTML = val;
         
     }
 }
